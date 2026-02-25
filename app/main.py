@@ -17,6 +17,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:3000",
+        "https://hrms-lite-production-bc0b.up.railway.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
