@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8000',
+  baseURL: import.meta.env.REACT_APP_VITE_API_URL || 'https://hrms-lite-production-bc0b.up.railway.app',
 })
 
 export const getEmployees = () => api.get('/api/employees')
