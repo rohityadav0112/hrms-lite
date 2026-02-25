@@ -23,6 +23,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+print("Hello")
 
 app.include_router(employees.router)
 app.include_router(attendance.router)
